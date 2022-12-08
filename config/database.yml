@@ -1,0 +1,30 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: souja
+  password: sam2
+
+
+development:
+  <<: *default
+  database: elastic_rails_dev
+  host: localhost
+  username: souja
+  password: sam2
+
+
+test:
+  <<: *default
+  database: elastic_rails_t
+  host: localhost
+  username: souja
+  password: sam2
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: <%= ENV['DATABASE_URL'] %>

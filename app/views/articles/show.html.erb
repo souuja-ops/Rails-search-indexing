@@ -1,0 +1,23 @@
+<% content_for :title do %>
+  Details of Article
+<% end %>
+
+<div class="page-header">
+  <h1>Details of Article</h1>
+  <div>
+    <%= link_to edit_article_path(@article), class: 'btn btn-success' do %>
+      <%= icon 'fas', 'edit' %>
+      Edit
+    <% end %>
+    <%= link_to articles_path, class: 'btn btn-outline-secondary' do %>
+      <%= icon 'fas', 'bars' %>
+      Back
+    <% end %>
+  </div>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Title:</dt>
+  <dd><%= @article.title %></dd>
+
+</dl>

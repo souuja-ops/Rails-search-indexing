@@ -1,0 +1,7 @@
+DEV_DATABASE_ADAPTER=postgresql
+DEV_DATABASE_ENCODING=unicode
+DEV_DATABASE_TIMEOUT=
+DEV_DATABASE=article_search
+DEV_DATABASE_TEST=article_search_test
+DEV_DATABASE_USER=postgres
+REDIS_URL=redis://localhost:6379/0

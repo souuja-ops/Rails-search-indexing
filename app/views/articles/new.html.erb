@@ -1,0 +1,13 @@
+<% content_for :title do %>
+  New Article
+<% end %>
+
+<div class="page-header">
+  <h1>New Article</h1>
+  <%= link_to articles_path, class: 'btn btn-outline-secondary' do %>
+    <%= icon 'fas', 'bars' %>
+    Back
+  <% end %>
+</div>
+
+<%= render 'form' %>

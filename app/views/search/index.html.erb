@@ -1,0 +1,18 @@
+<div class="page-header">
+  <h1>Search for your Article</h1>
+</div>
+
+<%= form_with url: search_url, method: :get, class: 'search_form form-inline row', local: true do %>
+  <%= text_field_tag :term,
+    nil,
+    class: 'form-control mr-sm-2 col',
+    placeholder: 'Search',
+    autocomplete: "off",
+    autofocus: true %>
+  <%= submit_tag 'Search',
+    name: nil,
+    data: { disable_with: false },
+    class: 'btn btn-outline-success' %>
+<% end %>
+
+<div class="search_result"></div>
