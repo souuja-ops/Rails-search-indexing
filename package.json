@@ -20,6 +20,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "engines": {
-    "node": "14.21.0"
+    "node": "14.21.1"
   }
 }
