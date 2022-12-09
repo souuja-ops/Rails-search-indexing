@@ -1,0 +1,21 @@
+{
+  "name": "ArticleSearch",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^7.0.4",
+    "@rails/activestorage": "^7.0.4",
+    "@rails/ujs": "^7.0.4",
+    "@rails/webpacker": "5.4.3",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.4.1",
+    "node": "^14.21.0",
+    "popper.js": "^1.16.1",
+    "turbolinks": "^5.2.0",
+    "underscore": "^1.10.2"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  }
+}
