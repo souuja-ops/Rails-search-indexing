@@ -2,19 +2,19 @@
   "name": "ArticleSearch",
   "private": true,
   "dependencies": {
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.0",
-    "axios": "^0.19.2",
-    "turbolinks": "^5.2.0",
-    "underscore": "^1.10.2",
-    "bootstrap": "^4.4.1",
+    "@rails/actioncable": "^7.0.4",
+    "@rails/activestorage": "^7.0.4",
+    "@rails/ujs": "^7.0.4",
+    "@rails/webpacker": "5.4.3",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "turbolinks": "^5.2.0",
+    "underscore": "^1.10.2"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "4.0"
+    "webpack-dev-server": "^4.11.1"
   }
 }
