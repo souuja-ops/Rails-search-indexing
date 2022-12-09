@@ -24,7 +24,11 @@ test:
   password: sam2
 
 production:
+  url: <%= ENV['DATABASE_URL'] %>
   adapter: postgresql
   encoding: unicode
+  database: elastic_rails_production
+  username: souja
+  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: <%= ENV['DATABASE_URL'] %>
+ 
